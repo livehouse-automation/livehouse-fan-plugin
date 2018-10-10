@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root
+	xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>5</minor>
+	</specVersion>
+	<device>
+		<deviceType>urn:schemas-livehouse-automation:device:LiveHouseFan:1</deviceType>
+		<staticJson>D_LiveHouseFan1.json</staticJson>
+		<friendlyName>LiveHouse 3 Speed Fan Plugin</friendlyName>
+		<manufacturer>LiveHouse Automation</manufacturer>
+		<manufacturerURL>https://www.livehouseautomation.com.au</manufacturerURL>
+		<modelDescription>0-10V Dimmer Based Control for 3 Speed Step Relays</modelDescription>
+		<modelName>LiveHouseFan</modelName>
+		<protocol>cr</protocol>
+		<handleChildren>0</handleChildren>
+		<Category_Num>5</Category_Num>
+		<Subcategory_Num>3</Subcategory_Num>
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-livehouse-automation:service:LiveHouseFan:1</serviceType>
+				<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+				<SCPDURL>S_LiveHouseFan1.xml</SCPDURL>
+			</service>
+			<service>
+				<serviceType>urn:schemas-micasaverde-com:service:HaDevice:1</serviceType>
+				<serviceId>urn:micasaverde-com:serviceId:HaDevice1</serviceId>
+				<SCPDURL>S_HaDevice1.xml</SCPDURL>
+			</service>
+		</serviceList>
+		<implementationList>
+			<implementationFile>I_LiveHouseFan1.xml</implementationFile>
+		</implementationList>
+	</device>
+</root>

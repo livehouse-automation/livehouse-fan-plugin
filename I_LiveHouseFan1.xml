@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<implementation>
+	<specVersion>
+		<major>1</major>
+		<minor>5</minor>
+	</specVersion>
+	<settings>
+		<protocol>cr</protocol>
+	</settings>
+	<files>L_LiveHouseFan1.lua</files>
+	<functions></functions>
+	<startup>startup</startup>
+	<actionList>
+		<!-- Off Button Start -->
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetOffLowerLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffLowerLimit", lul_settings.newOffLowerLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetOffLowerLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffLowerLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetOffUpperLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffUpperLimit", lul_settings.newOffUpperLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetOffUpperLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffUpperLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetOffTarget</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffTarget", lul_settings.newOffTarget, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetOffTarget</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "OffTarget", parentDevice)
+      </run>
+		</action>
+		<!-- Off Button End -->
+		<!-- High Button Start -->
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetHighLowerLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighLowerLimit", lul_settings.newHighLowerLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetHighLowerLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighLowerLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetHighUpperLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighUpperLimit", lul_settings.newHighUpperLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetHighUpperLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighUpperLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetHighTarget</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighTarget", lul_settings.newHighTarget, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetHighTarget</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "HighTarget", parentDevice)
+      </run>
+		</action>
+		<!-- High Button End -->
+		<!-- Med Button Start -->
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetMedLowerLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedLowerLimit", lul_settings.newMedLowerLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetMedLowerLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedLowerLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetMedUpperLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedUpperLimit", lul_settings.newMedUpperLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetMedUpperLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedUpperLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetMedTarget</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedTarget", lul_settings.newMedTarget, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetMedTarget</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "MedTarget", parentDevice)
+      </run>
+		</action>
+		<!-- Med Button End -->
+		<!-- Low Button Start -->
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetLowLowerLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowLowerLimit", lul_settings.newLowLowerLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetLowLowerLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowLowerLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetLowUpperLimit</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowUpperLimit", lul_settings.newLowUpperLimit, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetLowUpperLimit</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowUpperLimit", parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetLowTarget</name>
+			<run>
+        luup.variable_set("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowTarget", lul_settings.newLowTarget, parentDevice)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetLowTarget</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "LowTarget", parentDevice)
+      </run>
+		</action>
+		<!-- Low Button End -->
+		<!-- FanLevelStatus Start -->
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>SetFanLevelStatus</name>
+			<run>
+		setDimmerTargetValue(lul_settings.newFanLevelStatus)
+      </run>
+		</action>
+		<action>
+			<serviceId>urn:livehouse-automation:serviceId:LiveHouseFan1</serviceId>
+			<name>GetFanLevelStatus</name>
+			<run>
+        luup.variable_get("urn:livehouse-automation:serviceId:LiveHouseFan1", "FanLevelStatus", parentDevice)
+      </run>
+		</action>
+		<!-- FanLevelStatus End -->
+	</actionList>
+</implementation>
