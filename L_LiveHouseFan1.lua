@@ -1,4 +1,3 @@
--- module("L_LiveHouseFan1", package.seeall)
 --
 -- LiveHouse Fan Plugin
 -- 
