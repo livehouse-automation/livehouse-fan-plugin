@@ -15,8 +15,8 @@
 		<modelName>LiveHouseFan</modelName>
 		<protocol>cr</protocol>
 		<handleChildren>0</handleChildren>
-		<Category_Num>5</Category_Num>
-		<Subcategory_Num>3</Subcategory_Num>
+		<Category_Num>666</Category_Num>
+		<Subcategory_Num></Subcategory_Num>
 		<serviceList>
 			<service>
 				<serviceType>urn:schemas-livehouse-automation:service:LiveHouseFan:1</serviceType>
