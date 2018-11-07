@@ -1,6 +1,6 @@
 --
 -- LiveHouse Fan Plugin
--- 
+--
 -- Control a 0-10V Qubino/GOAP Dimmer connected to a 3-stage Relay as if it was a 3 speed Fan interface
 -- Supports detection/feedback updates to Vera if the Fan Speed (Potentiometer or 4 position rotary switch with fixed resistors) is adjusted at the wall or via UI
 --
