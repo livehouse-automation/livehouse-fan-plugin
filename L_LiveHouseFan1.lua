@@ -214,7 +214,7 @@ function initPluginInstance(lul_device)
 end
 
 function startup(lul_device)
-	infoLog("We are not gonna be great. We are not gonna be amazing. We are gonna be amazingly amazing!")
+	infoLog("We are not going to be great. We are not going to be amazing. We are going to be amazingly amazing!")
 	-- Init
 	initPluginInstance(lul_device)
 
